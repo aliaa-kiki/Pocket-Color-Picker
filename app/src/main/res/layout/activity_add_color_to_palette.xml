@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.addColorToPalette">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/addColorToPaletteTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edges_up"
+        app:title="Choose a palette :"
+        android:elevation="8dp"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_new_24"
+        app:menu="@menu/color_tool_bar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/addColorToPaletteRecView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#FBFBFB"
+        android:clipToPadding="false"
+        android:paddingTop="65dp"
+        android:paddingBottom="65dp" />
+
+</RelativeLayout>

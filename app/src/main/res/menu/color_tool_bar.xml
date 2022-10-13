@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".paletteActivity">
+
+    <item
+        android:id="@+id/changeColor"
+        android:enabled="true"
+        android:icon="@drawable/ic_hues"
+        android:iconTint="@color/black"
+        android:title="Edit Color" />
+
+    <item
+        android:id="@+id/changeNote"
+        android:enabled="true"
+        android:icon="@drawable/ic_edit"
+        android:iconTint="@color/black"
+        android:title="Edit Note" />
+
+    <item
+        android:id="@+id/addToPalette"
+        android:enabled="true"
+        android:icon="@drawable/ic_add_circle"
+        android:iconTint="@color/black"
+        android:title="Add To Palette" />
+
+    <item
+        android:id="@+id/deleteItem"
+        android:enabled="true"
+        android:icon="@drawable/ic_delete"
+        android:iconTint="@color/black"
+        android:title="Delete Color" />
+
+</menu>

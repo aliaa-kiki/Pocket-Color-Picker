@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pcp_nav"
+    app:startDestination="@id/colorsFragment2">
+
+    <fragment
+        android:id="@+id/colorsFragment2"
+        android:name="com.example.pocketcolorpicker.fragments.colorsFragment"
+        android:label="fragment_colors"
+        tools:layout="@layout/fragment_colors" />
+    <fragment
+        android:id="@+id/palletsFragment2"
+        android:name="com.example.pocketcolorpicker.palletsFragment"
+        android:label="fragment_pallets"
+        tools:layout="@layout/fragment_palettes" />
+    <fragment
+        android:id="@+id/huesFragment2"
+        android:name="com.example.pocketcolorpicker.fragments.huesFragment"
+        android:label="fragment_hues"
+        tools:layout="@layout/fragment_hues" />
+</navigation>

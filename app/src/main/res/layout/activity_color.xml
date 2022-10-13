@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.colorActivity"
+    android:orientation="horizontal">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/colorActivityTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edges_up"
+        android:elevation="8dp"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_new_24"
+        app:menu="@menu/color_tool_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorActivityTopBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/circle"
+                android:elevation="5dp"
+                android:id="@+id/colorActivityColorView"
+                android:backgroundTintMode="multiply"
+                android:backgroundTint="@color/pink_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RGB:"
+                android:layout_below="@id/colorActivityColorView"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HEX:"
+                android:layout_marginStart="30dp"
+                android:layout_below="@+id/colorActivityRgbText"
+                android:layout_marginTop="6dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Note:"
+                android:layout_marginStart="30dp"
+                android:layout_below="@+id/colorActivityHexText"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="225, 225, 255"
+                android:layout_below="@id/colorActivityColorView"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/colorActivityRgbText"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/colorActivityHexText"
+                android:layout_below="@+id/colorActivityRgbText"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/colorActivityNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/colorActivityHexText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="60dp"
+                android:hint="note"
+                android:inputType="textMultiLine"
+                android:maxLines="20" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

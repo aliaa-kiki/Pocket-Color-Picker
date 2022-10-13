@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/palettesFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_pallets"
+        android:title="Palettes"/>
+    <item
+        android:id="@+id/colorsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_colors"
+        android:title="Colors"/>
+    <item
+        android:id="@+id/huesFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_hues"
+        android:title="Hues"/>
+</menu>

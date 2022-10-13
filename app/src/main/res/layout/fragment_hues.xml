@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.huesFragment"
+    android:layout_marginTop="70dp"
+    android:layout_marginBottom="65dp">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="30dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/lin"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@color/m_red"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:id="@+id/redCount"
+                    android:gravity="center"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@color/m_orange"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:id="@+id/orangeCount"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@color/m_yellow"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:id="@+id/yellowCount"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@color/m_green"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:id="@+id/greenCount"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@color/m_blue"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:id="@+id/blueCount"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@color/m_purple"
+                    android:layout_margin="8dp"
+                    android:elevation="4dp"
+                    android:id="@+id/purpleCount"
+                    android:gravity="center"
+                    android:textColor="@color/white"/>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="number of colors in each group :"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/lin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click on each group to view full list :"
+                android:layout_marginStart="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:gravity="center"/>
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/all_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_margin="40dp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="60dp"
+                >
+
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/center_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="40dp"/>
+
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</RelativeLayout>

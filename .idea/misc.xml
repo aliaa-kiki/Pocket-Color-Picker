@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable-anydpi/ic_pallets.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/circle.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_add.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_add_circle.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_back_arrow.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_baseline_arrow_circle_left_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_delete.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_edit.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_picker.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_pointer.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/ic_ring.xml" value="1.8375" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/lancher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/launcher_icon_pcp_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/round_edges.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/round_edges_up.xml" value="0.221875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/round_square.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/drawable/square.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout-v21/palette_list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/activity_add_color_to_palette.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/activity_add_palette.xml" value="0.33" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/activity_camera.xml" value="0.33" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/activity_color.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/activity_hues.xml" value="0.18" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/activity_palette.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/color_editor_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/color_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/color_list_layout.xml" value="0.5" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/dialog_delete_edit.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/fragment_colors.xml" value="0.2550382209867964" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/fragment_hues.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/fragment_palettes.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/fragment_palletes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/fragment_pallets.xml" value="0.36231884057971014" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/layout/palette_list_item.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/menu/color_tool_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/menu/palette_tool_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/mipmap-anydpi-v26/ic_circle_lined.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/mipmap-anydpi-v26/ic_circle_lined_round.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/mipmap-anydpi-v26/launcher_icon_pcp.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/PocketColorPicker/app/src/main/res/mipmap-anydpi-v26/launcher_icon_pcp_round.xml" value="0.3828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.36231884057971014" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
